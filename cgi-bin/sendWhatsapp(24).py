@@ -9,9 +9,9 @@ cgitb.enable()
 print("Content-Type: text/html\n")
 
 # Twilio configuration
-TWILIO_ACCOUNT_SID = 'ACc085f38e28e064719e609803f0237c10'
-TWILIO_AUTH_TOKEN = '8d0ce3f6c8edbfae92a8de32943309ca'
-TWILIO_WHATSAPP_NUMBER = '+16189480533'
+TWILIO_ACCOUNT_SID = ''
+TWILIO_AUTH_TOKEN = ''
+TWILIO_WHATSAPP_NUMBER = ''
 
 def send_whatsapp_message(to, message):
     client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
